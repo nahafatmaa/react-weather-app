@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <p>
+        <footer>
           This project is coded by Naha Fatma and is {""}
           <a
             href="https://github.com/nahafatmaa/react-weather-app"
@@ -14,7 +14,7 @@ function App() {
           >
             open-sourced on github
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
