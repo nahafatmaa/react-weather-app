@@ -15,7 +15,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
-      city: response.main.temp,
+      city: response.data.name,
     });
   }
   function handleSubmit(event) {
